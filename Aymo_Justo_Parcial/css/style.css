@@ -1,0 +1,79 @@
+header{
+    display: flex;
+    background-color: green;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}/*  centro los items le pongo fondo verde y los alineo , y los pongo en horizontal*/
+header div h2{
+    color: white;
+}
+.contenedor-barra-nombre{
+    display: flex;
+    gap: 50px;/*  le doy espacio entre columnas*/
+}
+body{
+    background-color: white;
+    border: 2px solid rgb(190, 190, 190, 0.6);
+
+}
+.frutas{
+    display: flex;
+    flex-wrap: wrap;   /* por si no entran en la pantalla para q bajen */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.card-producto{
+    border: 2px solid rgb(190, 190, 190, 0.6);
+    padding: 10px 40px;
+    margin: 10px;
+    border-radius: 5px; /*  para darle un borde redondo*/
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /*  para darle un sombreado al borde*/
+}
+.contenedor-carrito{
+    background-color: rgb(190, 190, 190, 0.1);;
+    border: 2px solid rgb(190, 190, 190, 0.6);;
+}
+.boton-agregar{
+    padding: 10px 10px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+}
+.bloque-item{
+    display: flex;
+    gap: 20px;
+    list-style: none;  
+    min-width: 500px;
+    justify-content: space-evenly;
+}
+.boton-eliminar{
+    padding: 5px 20px;
+    text-align: left;
+    color: white;
+    border: 2px solid white;
+    background-color: red;
+    border-radius: 5px;
+    text-decoration: none;
+    
+
+}
+.subtitulo-carrito{
+    display:flex;
+    justify-content: center;
+}
+.vaciar-carrito{
+    padding: 5px 20px;
+    text-align: left;
+    color: white;
+    border: 2px solid white;
+    background-color: red;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.carrito-inferior{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
